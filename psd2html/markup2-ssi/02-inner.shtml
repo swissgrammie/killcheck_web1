@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<title>KillCheck</title>
+	<link media="all" rel="stylesheet" type="text/css" href="css/all.css" />
+	<script type="text/javascript" src="js/html5.js" ></script>
+	<script type="text/javascript" src="js/jquery-1.8.1.min.js" ></script>
+	<script type="text/javascript" src="js/jquery.main.js" ></script>
+	<script type="text/javascript" src="js/jcf.js"></script>
+	<!--[if IE 9]>
+		<style type="text/css">
+			.main_corner_lf,
+			.main_corner_rt{display:none;}
+		</style>
+	<![endif]-->
+</head>
+<body>
+	<div id="wrapper">
+		<!--#include virtual="inc/header.tpl" -->
+		<section id="main">
+			<div id="content">
+				<div class="graph-block">
+					<h2>justo</h2>
+					<div class="graph-area">
+						<img src="images/img4.jpg" width="650" height="215" alt="image description">
+					</div>
+					<div class="graph-info">
+						<table>
+							<tbody>
+								<tr>
+									<td class="col1"><span class="orange"></span></td>
+									<td class="col2">Jasto</td>
+									<td class="col3">dia</td>
+									<td class="col4">0.07%</td>
+								</tr>
+								<tr>
+									<td class="col1"><span class="red"></span></td>
+									<td class="col2">Nasdaq ETF</td>
+									<td class="col3">spy</td>
+									<td class="col4"><span>0.02%</span></td>
+								</tr>
+								<tr>
+									<td class="col1"><span class="green"></span></td>
+									<td class="col2">Gold ETF</td>
+									<td class="col3">gld</td>
+									<td class="col4">0.07%</td>
+								</tr>
+								<tr>
+									<td class="col1"><span class="grey"></span></td>
+									<td class="col2">S&amp;P 500 ETF</td>
+									<td class="col3">dia</td>
+									<td class="col4">0.03%</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="stock-search">
+					<div class="stock-area">
+						<div class="stock-area-holder">
+							<form action="#" class="search-nav">								<fieldset>									<ul>										<li>
+											<strong class="num">1</strong>
+											<input type="text" placeholder="Stock Name" />
+										</li>										<li>
+											<strong class="num">2</strong>
+											<input type="text" placeholder="Buy Price" />
+										</li>										<li>
+											<strong class="num"><span>3</span></strong>
+											<input type="text" placeholder="Sell Price" />
+											<span class="btn"><input type="submit" value="Add" /></span>
+										</li>									</ul>
+								</fieldset>							</form>
+							<table class="stock-table stock-table-wide">
+								<thead>
+									<tr>
+										<td class="col1">Stock Name</td>
+										<td class="col2">Current Price</td>
+										<td class="col3">Buy Price</td>
+										<td class="col4">Sell Price</td>
+										<td class="col5"><span class="view"></span></td>
+									</tr>
+								</thead>
+								<tbody>
+									<tr class="checked">
+										<td class="col1">Justo</td>
+										<td class="col2">1000</td>
+										<td class="col3">1000</td>
+										<td class="col4">1000</td>
+										<td class="col5"><a href="#" class="view"></a></td>
+									</tr>
+									<tr class="even">
+										<td class="col1">Ipsum</td>
+										<td class="col2">1000</td>
+										<td class="col3">2100</td>
+										<td class="col4"><span class="red">1000</span></td>
+										<td class="col5"><a href="#" class="view"></a></td>
+									</tr>
+									<tr>
+										<td class="col1">Monummy</td>
+										<td class="col2">1000</td>
+										<td class="col3">850</td>
+										<td class="col4"><span class="green">1000</span></td>
+										<td class="col5"><a href="#" class="view"></a></td>
+									</tr>
+									<tr class="even">
+										<td class="col1">Veniam</td>
+										<td class="col2">1000</td>
+										<td class="col3">1600</td>
+										<td class="col4"><span class="red">1000</span></td>
+										<td class="col5"><a href="#" class="view"></a></td>
+									</tr>
+									<tr>
+										<td class="col1">Commodo</td>
+										<td class="col2">1000</td>
+										<td class="col3">600</td>
+										<td class="col4"><span class="green">1000</span></td>
+										<td class="col5"><a href="#" class="view"></a></td>
+									</tr>
+									<tr class="even">
+										<td class="col1">Amet</td>
+										<td class="col2">1000</td>
+										<td class="col3">1000</td>
+										<td class="col4">1000</td>
+										<td class="col5"><a href="#" class="view"></a></td>
+									</tr>
+									<tr>
+										<td class="col1">Congue</td>
+										<td class="col2">1000</td>
+										<td class="col3">900</td>
+										<td class="col4">900</td>
+										<td class="col5"><a href="#" class="view"></a></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="nav-bar">
+						<a href="#" class="next">next</a>
+						<a href="#" class="prev">prev</a>
+						<ul class="paging">
+							<li class="active"><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+							<li><a href="#">5</a></li>
+							<li><a href="#">6</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="doc-block">
+					<h2>SEC document</h2>
+					<div class="table-holder">
+						<div class="table-frame">
+							<table class="doc-table doc-table-wide">
+								<thead>
+									<tr>
+										<td class="col1"><span>Filings</span></td>
+										<td class="col2"><span>Format</span></td>
+										<td class="col3"><span>Description</span></td>
+										<td class="col4"><span>Filing Date</span></td>
+										<td class="col5"><span>&nbsp;</span></td>
+									</tr>
+								</thead>
+								<tbody>
+									<tr class="checked">
+										<td class="col1">
+											<input id="check01" class="check" type="checkbox" checked="checked" />
+											<label for="check01">8-K</label>										</td>
+										<td class="col2">
+											<strong class="format">Documents</strong>
+											<strong class="format green">Interactve Data</strong>
+										</td>
+										<td class="col3">
+											<p><strong class="title"><a href="#">Current report, item 7.01</a></strong> Acc-no: 049-12-51 (34 Act) Size:54 KB</p>
+										</td>
+										<td class="col4">2012-08-27</td>
+										<td class="col5"><a href="#" class="add"></a></td>
+									</tr>
+									<tr class="even">
+										<td class="col1">
+											<input id="check02" class="check" type="checkbox" />
+											<label for="check02">8-K</label>
+										</td>
+										<td class="col2">
+											<strong class="format">Documents</strong>
+										</td>
+										<td class="col3">
+											<p><strong class="title"><a href="#">Current report, item 7.01</a></strong> Acc-no: 049-12-51 (34 Act) Size:54 KB</p>
+										</td>
+										<td class="col4">2012-08-27</td>
+										<td class="col5"><a href="#" class="add"></a></td>
+									</tr>
+									<tr>
+										<td class="col1">
+											<input id="check03" class="check" type="checkbox" />
+											<label for="check03">8-K</label>
+										</td>
+										<td class="col2">
+											<strong class="format">Documents</strong>
+										</td>
+										<td class="col3">
+											<p><strong class="title"><a href="#">Current report, item 7.01</a></strong> Acc-no: 049-12-51 (34 Act) Size:54 KB</p>
+										</td>
+										<td class="col4">2012-08-27</td>
+										<td class="col5"><a href="#" class="add"></a></td>
+									</tr>
+									<tr class="even">
+										<td class="col1">
+											<input id="check04" class="check" type="checkbox" />
+											<label for="check04">8-K</label>
+										</td>
+										<td class="col2">
+											<strong class="format">Documents</strong>
+										</td>
+										<td class="col3">
+											<p><strong class="title"><a href="#">Current report, item 7.01</a></strong> Acc-no: 049-12-51 (34 Act) Size:54 KB</p>
+										</td>
+										<td class="col4">2012-08-27</td>
+										<td class="col5"><a href="#" class="add"></a></td>
+									</tr>
+									<tr class="checked">
+										<td class="col1">
+											<input id="check05" class="check" type="checkbox" checked="checked" />
+											<label for="check05">8-K</label>
+										</td>
+										<td class="col2">
+											<strong class="format">Documents</strong>
+											<strong class="format green">Interactve Data</strong>
+										</td>
+										<td class="col3">
+											<p><strong class="title"><a href="#">Current report, item 7.01</a></strong> Acc-no: 049-12-51 (34 Act) Size:54 KB</p>
+										</td>
+										<td class="col4">2012-08-27</td>
+										<td class="col5"><a href="#" class="add"></a></td>
+									</tr>
+									<tr class="even">
+										<td class="col1">
+											<input id="check06" class="check" type="checkbox" />
+											<label for="check06">8-K</label>
+										</td>
+										<td class="col2">
+											<strong class="format">Documents</strong>
+										</td>
+										<td class="col3">
+											<p><strong class="title"><a href="#">Current report, item 7.01</a></strong> Acc-no: 049-12-51 (34 Act) Size:54 KB</p>
+										</td>
+										<td class="col4">2012-08-27</td>
+										<td class="col5"><a href="#" class="add"></a></td>
+									</tr>
+									<tr>
+										<td class="col1">
+											<input id="check07" class="check" type="checkbox" />
+											<label for="check07">8-K</label>
+										</td>
+										<td class="col2">
+											<strong class="format">Documents</strong>
+										</td>
+										<td class="col3">
+											<p><strong class="title"><a href="#">Current report, item 7.01</a></strong> Acc-no: 049-12-51 (34 Act) Size:54 KB</p>
+										</td>
+										<td class="col4">2012-08-27</td>
+										<td class="col5"><a href="#" class="add"></a></td>
+									</tr>
+									<tr class="even">
+										<td class="col1">
+											<input id="check08" class="check" type="checkbox" />
+											<label for="check08">8-K</label>
+										</td>
+										<td class="col2">
+											<strong class="format">Documents</strong>
+										</td>
+										<td class="col3">
+											<p><strong class="title"><a href="#">Current report, item 7.01</a></strong> Acc-no: 049-12-51 (34 Act) Size:54 KB</p>
+										</td>
+										<td class="col4">2012-08-27</td>
+										<td class="col5"><a href="#" class="add"></a></td>
+									</tr>
+									<tr class="checked">
+										<td class="col1">
+											<input id="check09" class="check" type="checkbox" checked="checked" />
+											<label for="check09">8-K</label>
+										</td>
+										<td class="col2">
+											<strong class="format">Documents</strong>
+											<strong class="format green">Interactve Data</strong>
+										</td>
+										<td class="col3">
+											<p><strong class="title"><a href="#">Current report, item 7.01</a></strong> Acc-no: 049-12-51 (34 Act) Size:54 KB</p>
+										</td>
+										<td class="col4">2012-08-27</td>
+										<td class="col5"><a href="#" class="add"></a></td>
+									</tr>
+									<tr class="even">
+										<td class="col1">
+											<input id="check10" class="check" type="checkbox" />
+											<label for="check10">8-K</label>
+										</td>
+										<td class="col2">
+											<strong class="format">Documents</strong>
+										</td>
+										<td class="col3">
+											<p><strong class="title"><a href="#">Current report, item 7.01</a></strong> Acc-no: 049-12-51 (34 Act) Size:54 KB</p>
+										</td>
+										<td class="col4">2012-08-27</td>
+										<td class="col5"><a href="#" class="add"></a></td>
+									</tr>
+									<tr>
+										<td class="col1">
+											<input id="check11" class="check" type="checkbox" />
+											<label for="check11">8-K</label>
+										</td>
+										<td class="col2">
+											<strong class="format">Documents</strong>
+										</td>
+										<td class="col3">
+											<p><strong class="title"><a href="#">Current report, item 7.01</a></strong> Acc-no: 049-12-51 (34 Act) Size:54 KB</p>
+										</td>
+										<td class="col4">2012-08-27</td>
+										<td class="col5"><a href="#" class="add"></a></td>
+									</tr>
+									<tr class="even">
+										<td class="col1">
+											<input id="check12" class="check" type="checkbox" />
+											<label for="check12">8-K</label>
+										</td>
+										<td class="col2">
+											<strong class="format">Documents</strong>
+										</td>
+										<td class="col3">
+											<p><strong class="title"><a href="#">Current report, item 7.01</a></strong> Acc-no: 049-12-51 (34 Act) Size:54 KB</p>
+										</td>
+										<td class="col4">2012-08-27</td>
+										<td class="col5"><a href="#" class="add"></a></td>
+									</tr>
+									<tr>
+										<td class="col1">
+											<input id="check13" class="check" type="checkbox" />
+											<label for="check13">8-K</label>
+										</td>
+										<td class="col2">
+											<strong class="format">Documents</strong>
+										</td>
+										<td class="col3">
+											<p><strong class="title"><a href="#">Current report, item 7.01</a></strong> Acc-no: 049-12-51 (34 Act) Size:54 KB</p>
+										</td>
+										<td class="col4">2012-08-27</td>
+										<td class="col5"><a href="#" class="add"></a></td>
+									</tr>
+									<tr class="even">
+										<td class="col1">
+											<input id="check14" class="check" type="checkbox" />
+											<label for="check14">8-K</label>
+										</td>
+										<td class="col2">
+											<strong class="format">Documents</strong>
+										</td>
+										<td class="col3">
+											<p><strong class="title"><a href="#">Current report, item 7.01</a></strong> Acc-no: 049-12-51 (34 Act) Size:54 KB</p>
+										</td>
+										<td class="col4">2012-08-27</td>
+										<td class="col5"><a href="#" class="add"></a></td>
+									</tr>
+									<tr>
+										<td class="col1">
+											<input id="check15" class="check" type="checkbox" />
+											<label for="check15">8-K</label>
+										</td>
+										<td class="col2">
+											<strong class="format">Documents</strong>
+										</td>
+										<td class="col3">
+											<p><strong class="title"><a href="#">Current report, item 7.01</a></strong> Acc-no: 049-12-51 (34 Act) Size:54 KB</p>
+										</td>
+										<td class="col4">2012-08-27</td>
+										<td class="col5"><a href="#" class="add"></a></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="nav-bar">
+						<a href="#" class="next">next</a>
+						<a href="#" class="prev">prev</a>
+						<ul class="paging">
+							<li class="active"><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+							<li><a href="#">5</a></li>
+							<li><a href="#">6</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<aside id="sidebar">
+				<div class="articles">
+					<h2><span>Article</span></h2>
+					<form action="#">						<fieldset>							<div class="text-box checked">
+								<div class="holder">
+									<input id="check1" class="check" type="checkbox" checked="checked" />									<div class="frame">
+										<h3><label for="check1">Lorem ipsum dolor sit amet</label></h3>
+										<p>Lorem ipsum dolor sit amet, consetetur sadi- pscing elitr, sed diam nonumy eirmod tempor.</p>
+										<ul>											<li>Vulputate velit esse molestie consequat</li>
+											<li>Quis nostrud exerci tation ullamcorper.</li>
+											<li>Consetetur sadipscing elitr, sed diam </li>										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="text-box checked">
+								<div class="holder">
+									<input id="check2" class="check" type="checkbox" checked="checked" />									<div class="frame">
+										<h3><label for="check2">Lorem ipsum dolor sit amet</label></h3>
+										<p>Lorem ipsum dolor sit amet, consetetur sadi- pscing elitr, sed diam nonumy eirmod tempor.</p>
+										<ul>											<li>Vulputate velit esse molestie consequat</li>
+											<li>Quis nostrud exerci tation ullamcorper.</li>
+											<li>Consetetur sadipscing elitr, sed diam </li>										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="text-box">
+								<div class="holder">
+									<input id="check3" class="check" type="checkbox" />									<div class="frame">
+										<h3><label for="check3">Lorem ipsum dolor sit amet</label></h3>
+										<p>Lorem ipsum dolor sit amet, consetetur sadi- pscing elitr, sed diam nonumy eirmod tempor.</p>
+										<ul>											<li>Vulputate velit esse molestie consequat</li>
+											<li>Quis nostrud exerci tation ullamcorper.</li>
+											<li>Consetetur sadipscing elitr, sed diam </li>										</ul>
+									</div>
+								</div>
+							</div>
+						</fieldset>					</form>
+				</div>
+				<div class="news">
+					<h2><span>RSS</span></h2>
+					<form action="#">						<fieldset>							<div class="item">
+								<div class="item-holder">
+									<div class="heading">
+										<input id="check4" class="check" type="checkbox" />										<label for="check4">Stella</label>
+										<em class="date">Aug - 2012</em>
+									</div>
+									<div class="holder">
+										<a href="#"><img src="images/img1.jpg" width="53" height="51" alt="image description" class="alignleft"></a>
+										<p>I found Ruth to be so friendly and helpful. I would definitely use her again to help me find a buy to let mortgage.</p>
+									</div>
+								</div>
+							</div>
+							<div class="item checked">
+								<div class="item-holder">
+									<div class="heading">
+										<input id="check5" class="check" type="checkbox" checked="checked" />										<label for="check5">Rika</label>
+										<em class="date">Aug - 2012</em>
+									</div>
+									<div class="holder">
+										<a href="#"><img src="images/img2.jpg" width="53" height="51" alt="image description" class="alignleft"></a>
+										<p>I found Ruth to be so friendly and helpful. I would definitely use her again to help me find a buy to let mortgage.</p>
+									</div>
+								</div>
+							</div>
+							<div class="item checked">
+								<div class="item-holder">
+									<div class="heading">
+										<input id="check6" class="check" type="checkbox" checked="checked" />										<label for="check6">Paul</label>
+										<em class="date">Aug - 2012</em>
+									</div>
+									<div class="holder">
+										<a href="#"><img src="images/img3.jpg" width="53" height="51" alt="image description" class="alignleft"></a>
+										<p>I found Ruth to be so friendly and helpful. I would definitely use her again to help me find a buy to let mortgage.</p>
+									</div>
+								</div>
+							</div>
+						</fieldset>					</form>
+				</div>
+				<div class="tweets">
+					<h2><span>Twitter</span></h2>
+					<form action="#">						<fieldset>							<div class="items-holder">
+								<ul>									<li class="checked">
+										<div class="frame">
+											<input id="check7" class="check" type="checkbox" checked="checked" />											<div class="holder">
+												<p><label for="check7">Free Facebook Fans and Free Twitter Followers</label></p>
+												<strong class="info"><a href="#">http://t.co/1mj71BzB</a> via <a href="mailto:&#064;&#097;&#110;&#115;&#121;&#115;&#111;&#102;&#116;">&#064;&#097;&#110;&#115;&#121;&#115;&#111;&#102;&#116;</a></strong>
+											</div>
+										</div>
+									</li>									<li class="checked">
+										<div class="frame">
+											<input id="check8" class="check" type="checkbox" checked="checked" />											<div class="holder">
+												<p><label for="check8">Free Facebook Fans and Free Twitter Followers</label></p>
+												<strong class="info"><a href="#">http://t.co/1mj71BzB</a> via <a href="mailto:&#064;&#097;&#110;&#115;&#121;&#115;&#111;&#102;&#116;">&#064;&#097;&#110;&#115;&#121;&#115;&#111;&#102;&#116;</a> <span>5 min ago</span></strong>
+											</div>
+										</div>
+									</li>									<li>
+										<div class="frame">
+											<input id="check9" class="check" type="checkbox" />											<div class="holder">
+												<p><label for="check9">Free Facebook Fans and Free Twitter Followers</label></p>
+												<strong class="info"><a href="#">http://t.co/1mj71BzB</a> via <a href="mailto:&#064;&#097;&#110;&#115;&#121;&#115;&#111;&#102;&#116;">&#064;&#097;&#110;&#115;&#121;&#115;&#111;&#102;&#116;</a> <span>5 min ago</span></strong>
+											</div>
+										</div>
+									</li>								</ul>
+								<span class="arrow"></span>
+							</div>
+							<span class="arrow"></span>						</fieldset>					</form>
+				</div>
+			</aside>
+			<span class="main_corner_lf"></span>
+			<span class="main_corner_rt"></span>
+		</section>
+		<!--#include virtual="inc/footer.tpl" -->
+	</div>
+</body>
+</html>

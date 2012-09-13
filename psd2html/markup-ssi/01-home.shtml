@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<title>KillCheck</title>
+	<link media="all" rel="stylesheet" type="text/css" href="css/all.css" />
+	<script type="text/javascript" src="js/html5.js" ></script>
+	<script type="text/javascript" src="js/jquery-1.8.1.min.js" ></script>
+	<script type="text/javascript" src="js/jquery.main.js" ></script>
+</head>
+<body>
+	<div id="wrapper">
+		<!--#include virtual="inc/header.tpl" -->
+		<section id="main">
+			<div class="edit-block">
+				<div class="stock-area">
+					<form action="#" class="add-form">						<fieldset>							<label for="name">Add Stock:</label>
+							<input type="text" placeholder="Stock name" id="name" />
+							<input type="text" placeholder="Buy price" />
+							<input type="text" placeholder="Sell price" />
+							<span class="btn"><input type="submit" value="ADD STOCK" /></span>
+						</fieldset>					</form>
+					<table class="stock-table">
+						<thead>
+							<tr>
+								<td class="col1">stock  name</td>
+								<td class="col2">current price</td>
+								<td class="col3">buy price</td>
+								<td class="col4">sell price</td>
+								<td class="col5">action</td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="col1">Stock file number 1</td>
+								<td class="col2">$ 206.00</td>
+								<td class="col3">$ 201.03</td>
+								<td class="col4">$ 250.99</td>
+								<td class="col5"><a href="#" class="btn">Edit Stock</a></td>
+							</tr>
+							<tr>
+								<td class="col1">Stock file number 1</td>
+								<td class="col2">$ 206.00</td>
+								<td class="col3">$ 201.03</td>
+								<td class="col4">$ 250.99</td>
+								<td class="col5"><a href="#" class="btn">Edit Stock</a></td>
+							</tr>
+							<tr>
+								<td class="col1">Stock file number 1</td>
+								<td class="col2">$ 206.00</td>
+								<td class="col3">$ 201.03</td>
+								<td class="col4">$ 250.99</td>
+								<td class="col5"><a href="#" class="btn">Edit Stock</a></td>
+							</tr>
+							<tr>
+								<td class="col1">Stock file number 1</td>
+								<td class="col2">$ 206.00</td>
+								<td class="col3">$ 201.03</td>
+								<td class="col4">$ 250.99</td>
+								<td class="col5"><a href="#" class="btn">Edit Stock</a></td>
+							</tr>
+							<tr>
+								<td class="col1">Stock file number 1</td>
+								<td class="col2">$ 206.00</td>
+								<td class="col3">$ 201.03</td>
+								<td class="col4">$ 250.99</td>
+								<td class="col5"><a href="#" class="btn">Edit Stock</a></td>
+							</tr>
+							<tr>
+								<td class="col1">Stock file number 1</td>
+								<td class="col2">$ 206.00</td>
+								<td class="col3">$ 201.03</td>
+								<td class="col4">$ 250.99</td>
+								<td class="col5"><a href="#" class="btn">Edit Stock</a></td>
+							</tr>
+							<tr>
+								<td class="col1">Stock file number 1</td>
+								<td class="col2">$ 206.00</td>
+								<td class="col3">$ 201.03</td>
+								<td class="col4">$ 250.99</td>
+								<td class="col5"><a href="#" class="btn">Edit Stock</a></td>
+							</tr>
+						</tbody>
+					</table>
+					<ul class="paging">
+						<li><a class="prev" href="#">&laquo;</a></li>						<li class="active">1</li>						<li><a href="#">2</a></li>						<li><a href="#">3</a></li>						<li><a href="#">4</a></li>						<li><a href="#">5</a></li>						<li><a href="#">6</a></li>						<li>... to</li>						<li><a href="#">10</a></li>						<li><a class="next" href="#">&raquo;</a></li>
+					</ul>
+				</div>
+				<aside class="aside-block">
+					<strong class="title">SEC DOCUMENT LIST</strong>
+					<ul>						<li><a href="#">Sec doc. list number 1</a></li>						<li><a href="#">Sec doc. list number 1</a></li>						<li><a href="#">Sec doc. list number 1</a></li>						<li><a href="#">Sec doc. list number 1</a></li>						<li><a href="#">Sec doc. list number 1</a></li>						<li><a href="#">Sec doc. list number 1</a><span>sub description</span></li>					</ul>
+				</aside>
+			</div>
+			<div class="info-block">
+				<div class="news-block">
+					<h2>Blog RSS</h2>
+					<ul>						<li>
+							<strong class="title"><a href="#">Southern Company: Is It Time To Jump In Or Wait?</a></strong>
+							<strong class="info">by <a href="#">Tactical Investor</a> • <a href="#">2 Comments</a></strong>
+						</li>						<li>
+							<strong class="title"><a href="#">Simon Properties Is Taking Advantage Of Low Interest Rates</a></strong>
+							<strong class="info">by <a href="#">Dane Bowler</a> • <a href="#">Comment!</a></strong>
+						</li>						<li>
+							<strong class="title"><a href="#">Today In Commodities: Soybeans Surge To New Highs</a></strong>
+							<strong class="info">by <a href="#">Matthew Bradbard</a> • <a href="#">Comment!</a></strong>
+						</li>						<li>
+							<strong class="title"><a href="#">Meat Decontamination - An Esoteric Technology Used In Innovative Ways</a></strong>
+							<strong class="info">by <a href="#">Tedra DeSue</a> • <a href="#">Comment!</a></strong>
+						</li>						<li>
+							<strong class="title"><a href="#">Pandora Rises On Prospects Of Continued Profits</a></strong>
+							<strong class="info">by <a href="#">Spencer Osborne</a> • <a href="#">5 Comments</a></strong>
+						</li>					</ul>
+				</div>
+				<div class="tweets">
+					<h2>Latest Tweets</h2>
+					<ul>						<li>
+							<p><a href="mailto:&#064;&#107;&#105;&#108;&#108;&#099;&#104;&#101;&#099;&#107;&#046;&#099;&#111;&#109;">&#064;&#107;&#105;&#108;&#108;&#099;&#104;&#101;&#099;&#107;&#046;&#099;&#111;&#109;</a> Morbi commodo tincidunt metus, pretium rhoncus lacus sollicitudin eget. Nunc dignissim nibh at dui lacinia quis <a href="#">#lobortis</a> nisl rutrum. In eget nisi a ante semper ullamcorper et non nulla. <span class="date">22 min ago</span></p>
+						</li>						<li>
+							<p><a href="mailto:&#064;&#107;&#105;&#108;&#108;&#099;&#104;&#101;&#099;&#107;&#046;&#099;&#111;&#109;">&#064;&#107;&#105;&#108;&#108;&#099;&#104;&#101;&#099;&#107;&#046;&#099;&#111;&#109;</a> Morbi commodo tincidunt metus, pretium rhoncus lacus sollicitudin eget. Nunc dignissim nibh at dui lacinia quis <a href="#">#lobortis</a> nisl mcorper et non nulla. <span class="date">22 min ago</span></p>
+						</li>						<li>
+							<p><a href="mailto:&#064;&#107;&#105;&#108;&#108;&#099;&#104;&#101;&#099;&#107;&#046;&#099;&#111;&#109;">&#064;&#107;&#105;&#108;&#108;&#099;&#104;&#101;&#099;&#107;&#046;&#099;&#111;&#109;</a> Morbi commodo unc dignissim nibh at dui lacinia quis <a href="#">#lobortis</a> nisl rutrum. In eget nisi a ante semper ullamcorper et non nulla. <span class="date">22 min ago</span></p>
+						</li>						<li>
+							<p><a href="mailto:&#064;&#107;&#105;&#108;&#108;&#099;&#104;&#101;&#099;&#107;&#046;&#099;&#111;&#109;">&#064;&#107;&#105;&#108;&#108;&#099;&#104;&#101;&#099;&#107;&#046;&#099;&#111;&#109;</a> Morbi commodo tincidunt metus, pretium rho at dui lacinia quis <a href="#">#lobortis</a> nisl rutrum. In eget nisi a ante semper ullamcorper et non nulla. <span class="date">22 min ago</span></p>
+						</li>					</ul>
+				</div>
+			</div>
+		</section>
+		<!--#include virtual="inc/footer.tpl" -->
+	</div>
+</body>
+</html>
